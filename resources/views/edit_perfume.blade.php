@@ -1,5 +1,5 @@
 @extends( "layouts.master" )
-
+<h1>Főoldal</h1>
 @section( "content" )
 
 @if( $errors->any() )
