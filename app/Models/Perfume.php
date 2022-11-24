@@ -8,6 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class Perfume extends Model
 {
     use HasFactory;
+    
+    $timestamps = false;
 
     protected $fillable = [
 
@@ -15,4 +17,6 @@ class Perfume extends Model
         "type",
         "price"
     ];
+
+    
 }
