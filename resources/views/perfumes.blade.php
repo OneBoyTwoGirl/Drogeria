@@ -1,7 +1,7 @@
 @extends( "layouts.master" )
 
 @section( "content" )
-
+<h1>Perfumek</h1>
 <a href="/new-perfume"><button>Új termék</button></a>
 
 <table>

@@ -51,4 +51,13 @@ class PerfumeController extends Controller
 
         return redirect( "/perfumes" );
     }
+    public function insertPerfumes(){
+        DB::table("perfumes")->insert([
+            ["name"=> "PLAYBOY VIP", "type" => "parfum", "price"=>234],
+            ["name"=> "Dior savage", "type" => "parfum", "price"=>2300],
+            ["name"=> "hajlakk", "type" => "hajlakk", "price"=>1200],
+            ["name"=> "AXE CLEAN+FRESH", "type" => "parfum/hidratalo", "price"=>5000]
+        ]);
+    }
 }
+
